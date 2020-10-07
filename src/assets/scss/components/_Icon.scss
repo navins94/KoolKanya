@@ -1,0 +1,21 @@
+.st-icon--social {
+  width: rem(30);
+  height: rem(30);
+  margin-right: rem($g-spacing-x-lg);
+
+  & > img {
+    width: rem(30);
+    height: rem(30);
+  }
+}
+
+.st-icon--store {
+  width: rem(135);
+  height: rem(40);
+  margin-right: rem($g-spacing-lg);
+
+  & > img {
+    width: rem(135);
+    height: rem(40);
+  }
+}

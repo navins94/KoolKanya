@@ -1,0 +1,32 @@
+.st-header {
+	background-color: blue;
+	color: map-get($colours, white);
+	padding: rem($g-spacing) 0;
+	box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.3);
+	z-index: map-get($z-index, header);
+}
+
+.st-header__title {
+	font-size: rem($g-font-size-2x-lg);
+	font-weight: $g-font-weight-semibold;
+}
+
+.st-header__login-link {
+	color: map-get($colours, white);
+	padding: rem($g-spacing-x-sm);
+	margin-right: rem($g-spacing);
+	text-decoration: none;
+	font-size: rem($g-font-size-sm);
+}
+
+.st-header__trial-btn {
+	background-color: map-get($colours, charcol);
+	border: 0;
+	border-radius: 0;
+	box-shadow: none;
+	color: map-get($colours, white);
+	cursor: pointer;
+	font-size: rem($g-font-size-sm);
+	font-weight: $g-font-weight-light;
+	padding: rem($g-spacing-x-sm);
+}

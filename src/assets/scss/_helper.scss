@@ -1,0 +1,28 @@
+.st-aspect {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.st-card-img {
+  background: rgba(0, 0, 0, .05);
+  flex-shrink: 0;
+  width: 100%;
+}
+
+.h-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.h-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.h-link {
+  text-decoration: none;
+}

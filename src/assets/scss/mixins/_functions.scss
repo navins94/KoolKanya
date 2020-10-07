@@ -1,0 +1,17 @@
+@function rem($pxval) {
+	@if not unitless($pxval) {
+		$pxval: strip-unit($pxval);
+	}
+
+	$base: $em-base;
+
+	@if not unitless($base) {
+		$base: strip-unit($base);
+	}
+
+	@return ($pxval / $base) * 1rem;
+}
+
+@function strip-unit($value) {
+	@return ($value / ($value * 0 + 1));
+}

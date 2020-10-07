@@ -1,0 +1,13 @@
+body {
+	font-family: 'Raleway', sans-serif;
+}
+
+.st-app {
+	position: relative;
+	min-height: 100vh;
+}
+
+.l-main {
+	padding-bottom: rem($footer-height);
+	min-height: rem(500);
+}

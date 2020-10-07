@@ -1,0 +1,24 @@
+.st-program-card {
+	cursor: pointer;
+	margin: 0 rem($g-spacing) rem(50) 0;
+	width: rem(135);
+}
+
+.st-program-card__list {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.st-program-card__artbox {
+	background-color: rgba(map-get($colours, jet), 0.7);
+	height: rem(202);
+	width: rem(135);
+	margin-bottom: rem($g-spacing-x-sm);
+}
+
+.st-program-card__title {
+	color: map-get($colours, black);
+	font-size: rem($g-font-size-sm);
+	font-weight: $g-font-weight-semibold;
+	line-height: 1.4;
+}

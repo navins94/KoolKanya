@@ -1,0 +1,50 @@
+// colours.
+$colours: (
+	white: #fff,
+	black: #000,
+	blue: #4d13d1,
+	charcol: #383838,
+	jet: #1c1c1c,
+	gray: #b4b4b4,
+	gray-dark: #898989,
+);
+
+// Breakpoints.
+$breakpoints: (
+	xs: 575.98px,
+	sm: 767.98px,
+	md: 991.98px,
+	lg: 1199.98px,
+);
+
+$z-index: (
+	header: 99,
+);
+
+$em-base: 16px;
+
+$footer-height: 230px;
+
+// Spacing
+$g-spacing-2x-lg: 28px;
+$g-spacing-x-lg: 24px;
+$g-spacing-lg: 18px;
+$g-spacing: 16px;
+$g-spacing-sm: 14px;
+$g-spacing-x-sm: 12px;
+$g-spacing-2x-sm: 6px;
+
+// Font size
+$g-font-size-2x-lg: 28px;
+$g-font-size-x-lg: 24px;
+$g-font-size-lg: 20px;
+$g-font-size: 16px;
+$g-font-size-sm: 14px;
+$g-font-size-x-sm: 12px;
+$g-font-size-2x-sm: 10px;
+
+// Font weight
+$g-font-weight-bold: 700;
+$g-font-weight-semibold: 500;
+$g-font-weight: 400;
+$g-font-weight-light: 300;
